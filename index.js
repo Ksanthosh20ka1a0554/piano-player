@@ -129,6 +129,7 @@ document.addEventListener("keypress", function(event) {
     switch (key) {
 
         case "a":
+            a.play();
             $('#a').fadeOut(100);
             $('#a').fadeIn(100);
             break;
@@ -139,8 +140,6 @@ document.addEventListener("keypress", function(event) {
             setTimeout(function() {
                 $('#w').removeClass("black-pressed");;
               }, 200);
-            
-
             break;
 
         case "s":
